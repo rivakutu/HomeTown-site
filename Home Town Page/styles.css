@@ -1,0 +1,37 @@
+.body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.mountain{
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+#first{
+    color: pink;
+    font-style: oblique;
+}
+.beach{
+    width: 400px;
+    height: 400px;
+}
+.fish{
+    width: 400px;
+    height: 400px;
+    padding-left: 5px;
+}
+.winelands{
+    width: 400px;
+    height: 400px;
+    padding-left: 5px;
+}
+#uniqa{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+}
+.todos{
+
+    display: flex;
+    padding: 10px 10px 10px 10px;
+   
+}
