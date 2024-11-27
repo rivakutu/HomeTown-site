@@ -1,44 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>See Cape Town like Never Before</title>
         <link rel="stylesheet" href="styles.css" />
-
     </head>
     <body>
-        <div>
-            <img src = "images/tablemountain.jpg" class = "mountain" alt = "Mountain in the background and boats in the waterfront">
-            <h1 id = "first">See Cape Town like Never Before</h1>
-            <P id="uniqa"> Cape Town is a city of contrasts, where natural wonders meet vibrant urban life. 
-                Dominated by the majestic Table Mountain, the city offers unforgettable views and outdoor 
-                adventures. Its coastline, from the penguin-filled Boulders Beach to the dramatic 
-                cliffs of the Cape of Good Hope, teems with unique wildlife and rugged beauty. 
-                The nearby Cape Winelands are a paradise for wine lovers, offering world-class 
-                vintages in picturesque settings. Beyond nature, Cape Town's rich cultural heritage 
-                shines in its colorful neighborhoods, lively markets, and diverse cuisine.
-            </P>
+        <header>
+            <img src="images/tablemountain.jpg" class="mountain" alt="Table Mountain with boats in the Waterfront">
+            <h1 id="first">See Cape Town like Never Before</h1>
+            <p id="uniqa">
+                Cape Town is a city of contrasts, where natural wonders meet vibrant urban life. Dominated by the majestic Table Mountain, the city offers unforgettable views and outdoor adventures. Its coastline, from the penguin-filled Boulders Beach to the dramatic cliffs of the Cape of Good Hope, teems with unique wildlife and rugged beauty. The nearby Cape Winelands are a paradise for wine lovers, offering world-class vintages in picturesque settings. Beyond nature, Cape Town's rich cultural heritage shines in its colorful neighborhoods, lively markets, and diverse cuisine.
+            </p>
+        </header>
 
+        <section class="image-container">
+            <img src="images/Cambs Bay Beach.jpg" alt="Large surfing wave at Camps Bay Beach" class="beach">
+            <button id="be" class="centered-button" aria-label="Explore Cape Town's Beaches">Beaches</button>
+        </section>
 
-        </div>
-        <div>
-            <img src="images/Cambs Bay Beach.jpg" alt = "Large surfing wave" class = "beach">
-            <button id = "be"> Beaches</button>
-        </div>
+        <section class="image-container">
+            <img src="images/Fish And Chips.jpg" alt="Battered fish and golden fries served in Cape Town" class="fish">
+            <button id="cu" class="centered-button" aria-label="Explore Cape Town's Cuisine">Cuisine</button>
+        </section>
 
-        <div>
-            <img src ="images/Fish And Chips.jpg" alt = "Battered fish and golden fries"class = "fish">
-            <button id = "cu"> Cuisine</button>
-        </div>
-        
-        <div>
-            <img src = "images/wine.jpg " alt = "Wine tram in the Cape Winelands" class = "winelands">
-            <button id = "wi"> Winelands</button>
-        </div>
+        <section class="image-container">
+            <img src="images/wine.jpg" alt="Wine tram passing through the Cape Winelands" class="winelands">
+            <button id="wi" class="centered-button" aria-label="Explore Cape Town's Winelands">Winelands</button>
+        </section>
 
-        <p id = "outro"> 
-            To buy the tickets to Table Mountain, click <a href="https://www.tablemountain.net/plan-your-visit/buy-tickets
-            " target = "_blank">here</a>
-        </p>
-
+        <footer>
+            <p id="outro">To buy tickets to Table Mountain, click <a href="https://www.tablemountain.net/plan-your-visit/buy-tickets" target="_blank" rel="noopener noreferrer">here</a></p>
+        </footer>
     </body>
 </html>
