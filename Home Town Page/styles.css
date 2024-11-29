@@ -56,7 +56,7 @@ body {
     transform: translate(-50%, -50%);
     padding: 12px 20px;
     font-size: 1em;
-    background-color: #007BFF;
+    background-color: none/*#007BFF;*/
     color: white;
     border: none;
     border-radius: 5px;
@@ -66,7 +66,7 @@ body {
 }
 
 .centered-button:hover {
-    background-color: #0056b3;
+    background-color: none/*#0056b3;*/
 }
 
 
